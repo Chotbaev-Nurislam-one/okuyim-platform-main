@@ -299,21 +299,21 @@
     "resources": [
       {
         "id": 1,
-        "name": "Дмитрий",
+        "name": "Нурислам",
         "role": "Product Owner",
         "efficiency": 1.3,
         "costPerDay": 7000
       },
       {
         "id": 2,
-        "name": "Ольга",
+        "name": "Алтынай",
         "role": "iOS Developer",
         "efficiency": 1.2,
         "costPerDay": 6000
       },
       {
         "id": 3,
-        "name": "Алексей",
+        "name": "Бекболот",
         "role": "Android Developer",
         "efficiency": 1.1,
         "costPerDay": 5500
@@ -327,14 +327,14 @@
       },
       {
         "id": 5,
-        "name": "Екатерина",
+        "name": "Канат",
         "role": "QA Engineer",
         "efficiency": 1.0,
         "costPerDay": 4500
       },
       {
         "id": 6,
-        "name": "Анастасия",
+        "name": "Алманбет",
         "role": "UI/UX Designer",
         "efficiency": 1.1,
         "costPerDay": 5000
@@ -452,28 +452,28 @@
     "resources": [
       {
         "id": 1,
-        "name": "Татьяна",
+        "name": "Амир",
         "role": "Бизнес-аналитик",
         "efficiency": 1.1,
         "costPerDay": 3500
       },
       {
         "id": 2,
-        "name": "Артем",
+        "name": "Жибек",
         "role": "CRM специалист",
         "efficiency": 1.2,
         "costPerDay": 4000
       },
       {
         "id": 3,
-        "name": "Ирина",
+        "name": "Ирина Кайратовна",
         "role": "Тренер",
         "efficiency": 1.0,
         "costPerDay": 3000
       },
       {
         "id": 4,
-        "name": "Владимир",
+        "name": "Вадим",
         "role": "Разработчик",
         "efficiency": 0.9,
         "costPerDay": 3500
