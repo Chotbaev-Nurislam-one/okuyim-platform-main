@@ -18,7 +18,7 @@ import Leaderboard from "./pages/Leaderboard";
 import Layout from "./components/Layout";
 
 // Настройка axios
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = process.env.REACT_APP_API_URL + "/api";
 
 // Интерсептор для добавления токена
 axios.interceptors.request.use(
