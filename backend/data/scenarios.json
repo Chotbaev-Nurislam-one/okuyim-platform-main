@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Запуск корпоративного сайта",
+    "difficulty": "средний",
+    "description": "Вам предстоит управлять командой разработки для создания корпоративного сайта компании. Необходимо уложиться в бюджет и сроки, обеспечив высокое качество.",
+    "budget": 100000,
+    "duration": 30,
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Анализ требований",
+        "startDay": 1,
+        "endDay": 3,
+        "dailyProgress": 20,
+        "dependencies": [],
+        "priority": "high"
+      },
+      {
+        "id": 2,
+        "title": "Дизайн макетов",
+        "startDay": 2,
+        "endDay": 7,
+        "dailyProgress": 15,
+        "dependencies": [1],
+        "priority": "medium"
+      },
+      {
+        "id": 3,
+        "title": "Верстка страниц",
+        "startDay": 4,
+        "endDay": 12,
+        "dailyProgress": 10,
+        "dependencies": [2],
+        "priority": "high"
+      },
+      {
+        "id": 4,
+        "title": "Разработка модулей",
+        "startDay": 5,
+        "endDay": 20,
+        "dailyProgress": 6,
+        "dependencies": [2],
+        "priority": "high"
+      },
+      {
+        "id": 5,
+        "title": "Интеграция БД",
+        "startDay": 10,
+        "endDay": 18,
+        "dailyProgress": 10,
+        "dependencies": [4],
+        "priority": "medium"
+      },
+      {
+        "id": 6,
+        "title": "Тестирование",
+        "startDay": 18,
+        "endDay": 25,
+        "dailyProgress": 12,
+        "dependencies": [3, 4, 5],
+        "priority": "high"
+      },
+      {
+        "id": 7,
+        "title": "Наполнение контентом",
+        "startDay": 20,
+        "endDay": 26,
+        "dailyProgress": 15,
+        "dependencies": [3],
+        "priority": "low"
+      },
+      {
+        "id": 8,
+        "title": "SEO оптимизация",
+        "startDay": 22,
+        "endDay": 27,
+        "dailyProgress": 15,
+        "dependencies": [6],
+        "priority": "medium"
+      },
+      {
+        "id": 9,
+        "title": "Финальное тестирование",
+        "startDay": 26,
+        "endDay": 29,
+        "dailyProgress": 20,
+        "dependencies": [6, 7, 8],
+        "priority": "high"
+      },
+      {
+        "id": 10,
+        "title": "Запуск и мониторинг",
+        "startDay": 29,
+        "endDay": 30,
+        "dailyProgress": 50,
+        "dependencies": [9],
+        "priority": "high"
+      }
+    ],
+    "resources": [
+      {
+        "id": 1,
+        "name": "Алтынай",
+        "role": "Project Manager",
+        "efficiency": 1.2,
+        "costPerDay": 5000
+      },
+      {
+        "id": 2,
+        "name": "Азат",
+        "role": "Разработчик",
+        "efficiency": 1.0,
+        "costPerDay": 4000
+      },
+      {
+        "id": 3,
+        "name": "Салиха",
+        "role": "Дизайнер",
+        "efficiency": 1.1,
+        "costPerDay": 4500
+      },
+      {
+        "id": 4,
+        "name": "Ардак",
+        "role": "Тестировщик",
+        "efficiency": 0.9,
+        "costPerDay": 3500
+      },
+      {
+        "id": 5,
+        "name": "Асыл",
+        "role": "Контент-менеджер",
+        "efficiency": 1.0,
+        "costPerDay": 3800
+      }
+    ],
+    "risks": [
+      {
+        "id": 1,
+        "name": "Задержка сервера",
+        "probability": 30,
+        "type": "time",
+        "severity": 2,
+        "description": "Проблемы с хостингом могут задержать разработку"
+      },
+      {
+        "id": 2,
+        "name": "Перегорание разработчика",
+        "probability": 25,
+        "type": "quality",
+        "severity": 15,
+        "description": "Высокая нагрузка может снизить качество кода"
+      },
+      {
+        "id": 3,
+        "name": "Изменение требований",
+        "probability": 40,
+        "type": "time",
+        "severity": 3,
+        "description": "Заказчик может запросить новые функции"
+      },
+      {
+        "id": 4,
+        "name": "Бюджетные риски",
+        "probability": 20,
+        "type": "budget",
+        "severity": 15,
+        "description": "Непредвиденные расходы могут превысить бюджет"
+      },
+      {
+        "id": 5,
+        "name": "Низкая мотивация команды",
+        "probability": 35,
+        "type": "satisfaction",
+        "severity": 10,
+        "description": "Снижение удовлетворенности может повлиять на скорость"
+      }
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Разработка мобильного приложения",
+    "difficulty": "профи",
+    "description": "Создание мобильного приложения для доставки еды. Жесткие сроки, большой бюджет и высокая конкуренция требуют безупречного управления.",
+    "budget": 250000,
+    "duration": 45,
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Маркетинговый анализ",
+        "startDay": 1,
+        "endDay": 5,
+        "dailyProgress": 15,
+        "dependencies": [],
+        "priority": "high"
+      },
+      {
+        "id": 2,
+        "title": "Прототипирование",
+        "startDay": 3,
+        "endDay": 10,
+        "dailyProgress": 12,
+        "dependencies": [1],
+        "priority": "high"
+      },
+      {
+        "id": 3,
+        "title": "Дизайн интерфейса iOS",
+        "startDay": 6,
+        "endDay": 15,
+        "dailyProgress": 10,
+        "dependencies": [2],
+        "priority": "medium"
+      },
+      {
+        "id": 4,
+        "title": "Дизайн интерфейса Android",
+        "startDay": 6,
+        "endDay": 15,
+        "dailyProgress": 10,
+        "dependencies": [2],
+        "priority": "medium"
+      },
+      {
+        "id": 5,
+        "title": "Разработка iOS",
+        "startDay": 11,
+        "endDay": 30,
+        "dailyProgress": 5,
+        "dependencies": [3],
+        "priority": "high"
+      },
+      {
+        "id": 6,
+        "title": "Разработка Android",
+        "startDay": 11,
+        "endDay": 30,
+        "dailyProgress": 5,
+        "dependencies": [4],
+        "priority": "high"
+      },
+      {
+        "id": 7,
+        "title": "Бэкенд API",
+        "startDay": 5,
+        "endDay": 25,
+        "dailyProgress": 4,
+        "dependencies": [1],
+        "priority": "critical"
+      },
+      {
+        "id": 8,
+        "title": "Интеграция платежей",
+        "startDay": 20,
+        "endDay": 32,
+        "dailyProgress": 8,
+        "dependencies": [7],
+        "priority": "high"
+      },
+      {
+        "id": 9,
+        "title": "Тестирование iOS",
+        "startDay": 28,
+        "endDay": 38,
+        "dailyProgress": 8,
+        "dependencies": [5, 8],
+        "priority": "high"
+      },
+      {
+        "id": 10,
+        "title": "Тестирование Android",
+        "startDay": 28,
+        "endDay": 38,
+        "dailyProgress": 8,
+        "dependencies": [6, 8],
+        "priority": "high"
+      },
+      {
+        "id": 11,
+        "title": "Бета-тестирование",
+        "startDay": 35,
+        "endDay": 42,
+        "dailyProgress": 12,
+        "dependencies": [9, 10],
+        "priority": "medium"
+      },
+      {
+        "id": 12,
+        "title": "Релиз в сторах",
+        "startDay": 42,
+        "endDay": 45,
+        "dailyProgress": 25,
+        "dependencies": [11],
+        "priority": "high"
+      }
+    ],
+    "resources": [
+      {
+        "id": 1,
+        "name": "Дмитрий",
+        "role": "Product Owner",
+        "efficiency": 1.3,
+        "costPerDay": 7000
+      },
+      {
+        "id": 2,
+        "name": "Ольга",
+        "role": "iOS Developer",
+        "efficiency": 1.2,
+        "costPerDay": 6000
+      },
+      {
+        "id": 3,
+        "name": "Алексей",
+        "role": "Android Developer",
+        "efficiency": 1.1,
+        "costPerDay": 5500
+      },
+      {
+        "id": 4,
+        "name": "Сергей",
+        "role": "Backend Developer",
+        "efficiency": 1.2,
+        "costPerDay": 6000
+      },
+      {
+        "id": 5,
+        "name": "Екатерина",
+        "role": "QA Engineer",
+        "efficiency": 1.0,
+        "costPerDay": 4500
+      },
+      {
+        "id": 6,
+        "name": "Анастасия",
+        "role": "UI/UX Designer",
+        "efficiency": 1.1,
+        "costPerDay": 5000
+      }
+    ],
+    "risks": [
+      {
+        "id": 1,
+        "name": "Отказ App Store",
+        "probability": 25,
+        "type": "time",
+        "severity": 7,
+        "description": "Apple может отклонить приложение"
+      },
+      {
+        "id": 2,
+        "name": "Утечка данных",
+        "probability": 15,
+        "type": "quality",
+        "severity": 30,
+        "description": "Проблемы с безопасностью"
+      },
+      {
+        "id": 3,
+        "name": "Конкурентный выпуск",
+        "probability": 35,
+        "type": "satisfaction",
+        "severity": 20,
+        "description": "Конкуренты выпускают раньше"
+      }
+    ],
+    "createdAt": "2026-01-02T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Внедрение CRM системы",
+    "difficulty": "новичок",
+    "description": "Компания внедряет CRM-систему для отдела продаж. Проект не очень сложный, но требует внимания к обучению сотрудников.",
+    "budget": 50000,
+    "duration": 20,
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Аудит процессов",
+        "startDay": 1,
+        "endDay": 3,
+        "dailyProgress": 25,
+        "dependencies": [],
+        "priority": "high"
+      },
+      {
+        "id": 2,
+        "title": "Выбор CRM",
+        "startDay": 2,
+        "endDay": 5,
+        "dailyProgress": 20,
+        "dependencies": [1],
+        "priority": "high"
+      },
+      {
+        "id": 3,
+        "title": "Настройка системы",
+        "startDay": 5,
+        "endDay": 10,
+        "dailyProgress": 15,
+        "dependencies": [2],
+        "priority": "medium"
+      },
+      {
+        "id": 4,
+        "title": "Интеграция с сайтом",
+        "startDay": 8,
+        "endDay": 13,
+        "dailyProgress": 12,
+        "dependencies": [3],
+        "priority": "medium"
+      },
+      {
+        "id": 5,
+        "title": "Импорт данных",
+        "startDay": 10,
+        "endDay": 14,
+        "dailyProgress": 15,
+        "dependencies": [3],
+        "priority": "high"
+      },
+      {
+        "id": 6,
+        "title": "Обучение сотрудников",
+        "startDay": 12,
+        "endDay": 17,
+        "dailyProgress": 10,
+        "dependencies": [4, 5],
+        "priority": "critical"
+      },
+      {
+        "id": 7,
+        "title": "Тестовый период",
+        "startDay": 15,
+        "endDay": 19,
+        "dailyProgress": 12,
+        "dependencies": [6],
+        "priority": "high"
+      },
+      {
+        "id": 8,
+        "title": "Полный запуск",
+        "startDay": 19,
+        "endDay": 20,
+        "dailyProgress": 50,
+        "dependencies": [7],
+        "priority": "high"
+      }
+    ],
+    "resources": [
+      {
+        "id": 1,
+        "name": "Татьяна",
+        "role": "Бизнес-аналитик",
+        "efficiency": 1.1,
+        "costPerDay": 3500
+      },
+      {
+        "id": 2,
+        "name": "Артем",
+        "role": "CRM специалист",
+        "efficiency": 1.2,
+        "costPerDay": 4000
+      },
+      {
+        "id": 3,
+        "name": "Ирина",
+        "role": "Тренер",
+        "efficiency": 1.0,
+        "costPerDay": 3000
+      },
+      {
+        "id": 4,
+        "name": "Владимир",
+        "role": "Разработчик",
+        "efficiency": 0.9,
+        "costPerDay": 3500
+      }
+    ],
+    "risks": [
+      {
+        "id": 1,
+        "name": "Сопротивление сотрудников",
+        "probability": 50,
+        "type": "satisfaction",
+        "severity": 15,
+        "description": "Не хотят осваивать новую систему"
+      },
+      {
+        "id": 2,
+        "name": "Потеря данных",
+        "probability": 15,
+        "type": "quality",
+        "severity": 25,
+        "description": "Ошибки при импорте данных"
+      }
+    ],
+    "createdAt": "2026-01-03T00:00:00.000Z"
+  }
+]

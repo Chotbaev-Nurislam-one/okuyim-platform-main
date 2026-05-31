@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "firstName": "Администратор",
+    "lastName": "Системы",
+    "email": "admin@okuyim.com",
+    "password": "$2a$10$Riq/O2Cv0QldifpJopo9QeK3Q1jt9fl7XiaEY/tuhQQYm5xLoIXZa",
+    "role": "admin",
+    "createdAt": "2026-04-28T09:19:10.096Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 1,
+      "completedSimulations": 1,
+      "averageScore": 60,
+      "totalDaysSpent": 13
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Nurislam",
+    "lastName": "CEO",
+    "email": "ceo123@gmail.com",
+    "password": "$2a$10$9pjrBGgtiKJOBsjx2NdL8ubY45QpSxNup9I8bnzbXyGOyT3qsnQIy",
+    "role": "student",
+    "createdAt": "2026-04-28T09:51:35.733Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 0,
+      "completedSimulations": 0,
+      "averageScore": 0,
+      "totalDaysSpent": 0
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Нурислам",
+    "lastName": "Чотбаев",
+    "email": "qwer123@gmail.com",
+    "password": "$2a$10$ilGvvNoHH8PQMiJ78z90luvPAQtP0YO9p.aERhH5sq9p6ObSU7JsG",
+    "role": "student",
+    "createdAt": "2026-05-24T10:56:18.036Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 0,
+      "completedSimulations": 0,
+      "averageScore": 0,
+      "totalDaysSpent": 0
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Айбек",
+    "lastName": "Асанов",
+    "email": "aybek@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.243Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 10,
+      "completedSimulations": 10,
+      "averageScore": 91.1,
+      "totalDaysSpent": 309
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "Нурсултан",
+    "lastName": "Назаров",
+    "email": "nurs@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 9,
+      "completedSimulations": 9,
+      "averageScore": 88.22222222222223,
+      "totalDaysSpent": 273
+    }
+  },
+  {
+    "id": 6,
+    "firstName": "Айгерим",
+    "lastName": "Сагынбаева",
+    "email": "aigerim@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 12,
+      "completedSimulations": 12,
+      "averageScore": 87.08333333333333,
+      "totalDaysSpent": 334
+    }
+  },
+  {
+    "id": 7,
+    "firstName": "Михаил",
+    "lastName": "Петров",
+    "email": "misha@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 6,
+      "completedSimulations": 6,
+      "averageScore": 80,
+      "totalDaysSpent": 188
+    }
+  },
+  {
+    "id": 8,
+    "firstName": "Елена",
+    "lastName": "Сидорова",
+    "email": "elena@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 14,
+      "completedSimulations": 14,
+      "averageScore": 93.85714285714286,
+      "totalDaysSpent": 441
+    }
+  },
+  {
+    "id": 9,
+    "firstName": "Данияр",
+    "lastName": "Абдрахманов",
+    "email": "daniyar@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 8,
+      "completedSimulations": 8,
+      "averageScore": 84.625,
+      "totalDaysSpent": 240
+    }
+  },
+  {
+    "id": 10,
+    "firstName": "Мадина",
+    "lastName": "Касымова",
+    "email": "madina@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 10,
+      "completedSimulations": 10,
+      "averageScore": 90.7,
+      "totalDaysSpent": 302
+    }
+  },
+  {
+    "id": 11,
+    "firstName": "Александр",
+    "lastName": "Ким",
+    "email": "sasha@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 6,
+      "completedSimulations": 6,
+      "averageScore": 80.83333333333333,
+      "totalDaysSpent": 191
+    }
+  },
+  {
+    "id": 12,
+    "firstName": "Динара",
+    "lastName": "Токтогулова",
+    "email": "dinara@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 16,
+      "completedSimulations": 16,
+      "averageScore": 92.3125,
+      "totalDaysSpent": 478
+    }
+  },
+  {
+    "id": 13,
+    "firstName": "Азамат",
+    "lastName": "Жумабеков",
+    "email": "azamat@test.com",
+    "password": "$2a$10$liel4mw.zUYDFUHxpoHateplpGtw9BumpIPXc4i19ESwbVhDkEHVa",
+    "role": "student",
+    "createdAt": "2026-05-24T11:13:18.244Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 5,
+      "completedSimulations": 5,
+      "averageScore": 79.2,
+      "totalDaysSpent": 154
+    }
+  },
+  {
+    "id": 14,
+    "firstName": "qwer",
+    "lastName": "qwer",
+    "email": "qwer@okuyim.com",
+    "password": "$2a$10$n98FhJFRjErY5kPfLMUGcueCemgh79CZDWisLlXj/vFWkMIK1Lq3q",
+    "role": "student",
+    "createdAt": "2026-05-31T17:17:10.934Z",
+    "isBlocked": false,
+    "stats": {
+      "totalSimulations": 0,
+      "completedSimulations": 0,
+      "averageScore": 0,
+      "totalDaysSpent": 0
+    }
+  }
+]
