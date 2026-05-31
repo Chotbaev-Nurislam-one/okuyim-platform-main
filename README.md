@@ -37,6 +37,6 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/AmanturU/okuyim-platform
+git clone https://github.com/Chotbaev-Nurislam-one/okuyim-platform-main
 cd okuyim-platform
 ```
